@@ -14,7 +14,7 @@
 *	功能：提取日志模板，并且将原日志文件转换成模板序列(log sequence)
 * 输入：原始的日志，每一条日志一行，例如 “1117838570 2005.06.03 R02-M1-N0-C:J12-U11 2005-06-03-15.42.50.675872 R02-M1-N0-C:J12-U11 RAS KERNEL INFO instruction cache parity error corrected” （即BGL_2k.log文件）
 * 输出：1.日志模板文件
-	     2.log sequence
+	     2.log sequence (tag范围是从0开始，range(template_bnum))
 
 ## classifiers_bgl.py:
 * 功能：有监督的异常检测，基于sklearn工具包，分别实现了决策树，SVM和逻辑回归异常检测。
