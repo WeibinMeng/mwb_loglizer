@@ -16,7 +16,7 @@
 * 输出：1.日志模板文件
 	     2.log sequence
 
-##classifiers_bgl.py:
+## classifiers_bgl.py:
 * 功能：有监督的异常检测，基于sklearn工具包，分别实现了决策树，SVM和逻辑回归异常检测。
 * 输入：
 	1. 原始日志文件（即BGL_2k.log文件）
@@ -25,7 +25,8 @@
 	4. 其他数值型的参数
 * 输出: precision recall fscore，查看具体哪个时间窗口有异常可以修改一下代码，目前没有展示。
 
-##log_clustering_bgl.py:
+
+## log_clustering_bgl.py:
    * 功能：实现了微软log clustering算法，通过日志来做异常检测。
    * 输入：
 	   1. 原始日志文件（即BGL_2k.log文件）
@@ -34,7 +35,7 @@
 	   4. 其他数值型的参数
    * 输出: precision recall fscore，查看具体哪个时间窗口有异常可以修改一下代码，目前没有展示。
 
-##PCA_bgl.py:
+## PCA_bgl.py:
    * 功能：实现了通过PCA做日志异常检测的功能。
    * 输入：
       1. 原始日志文件（即BGL_2k.log文件）
@@ -44,7 +45,7 @@
   * 输出: precision recall fscore，查看具体哪个时间窗口有异常可以修改一下代码，目前没有展示。
 
 
-##mining_invariants_bgl.py:
+## mining_invariants_bgl.py:
    * 功能：实现了ATC‘10的mining invariants。
    * 输入：
     1. 原始日志文件（即BGL_2k.log文件）
@@ -53,13 +54,13 @@
 	4. 其他数值型的参数
 * 输出: precision recall fscore，查看具体哪个时间窗口有异常可以修改一下代码，目前没有展示。	
 
-##nolabel_mining_invariants.py:
+## nolabel_mining_invariants.py:
  * 功能：我将mining invariants算法拆分成了train跟detect两部分，可以训练完之后，对实时数据做检测，并且可以输出每个时间窗口对应的检测结果
  * 输出：test数据的时间窗口的开始、结束时间 以及异常检测结果
 
 
 
-#个人看法
+# 个人看法
 * classifiers_bgl.py :有监督学习  决策树、逻辑回归、SVM，速度最快
 * log_clustering_bgl.py: 半监督？（需要有部分label作为输入），速度最慢
 * PCA_bgl.py: 无监督，在给出的样例数据中，准确率为0....
