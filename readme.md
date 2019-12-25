@@ -1,4 +1,4 @@
-**本代码修改自 [https://github.com/logpai/loglizer](https://github.com/logpai/loglizer) ，原论文：[He S, Zhu J, He P, et al. Experience Report: System Log Analysis for Anomaly Detection[C]// IEEE, International Symposium on Software Reliability Engineering. IEEE, 2016:207-218.](https://ieeexplore.ieee.org/document/7774521)，我为了自己做实验做了些小的修改。**
+**原论文：[He S, Zhu J, He P, et al. Experience Report: System Log Analysis for Anomaly Detection[C]// IEEE, International Symposium on Software Reliability Engineering. IEEE, 2016:207-218.](https://ieeexplore.ieee.org/document/7774521)，我为了自己做实验做了些小的修改。**
 
 
 # 日志异常检测的通用做法分为四步：
